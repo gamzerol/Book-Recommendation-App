@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 export default function FormValidation() {
     const { register, handleSubmit, formState: { errors}} = useForm();
     const onSubmit = (data) => {
-        console.log(data);
+        localStorage.setItem(new Date().toLocaleString() ,JSON.stringify(data));
     }
     return (
         <div>
