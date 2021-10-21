@@ -5,6 +5,7 @@ export default function FormValidation() {
     const { register, handleSubmit, formState: { errors}} = useForm();
     const onSubmit = (data) => {
         localStorage.setItem(new Date().toLocaleString() ,JSON.stringify(data));
+        console.log(data);
     }
     return (
         <div>
