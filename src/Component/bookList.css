@@ -1,0 +1,13 @@
+.book-list {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.book-list li {
+    margin-bottom: 8px;
+}
+.book-list li h4 {
+    margin-bottom: 5px;
+}

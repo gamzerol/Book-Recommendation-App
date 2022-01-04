@@ -8,8 +8,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .App {
-  width: 30vw;
+  width: 50vw;
   margin: auto;
+  margin-top: 20px;
   padding: 30px 20px;
   /* border: 1px solid #f1f2f3; */
   border-radius: 10px;
